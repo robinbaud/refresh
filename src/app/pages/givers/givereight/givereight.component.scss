@@ -1,0 +1,45 @@
+.body{
+  background: url(/assets/images/12.svg);
+  background-repeat: no-repeat;
+  background-position-y: 100%;
+  background-size: cover;
+  padding: 150px 100px 0px 100px;
+  height: 100vh;
+}
+.logo{
+  width: 100px;
+  height: auto;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
+}
+i{
+  color: black;
+}
+.goback{
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  background-color: #DEE0E4;
+  border: none;
+  box-shadow: 5px 5px 9px #221a11;
+}
+
+.col{
+  height: 40vh;
+  border-radius: 50%;
+  border: solid #0d0802 1px;
+  text-align: center;
+  background-color: #f1f1f1;
+  box-shadow: 9px 9px 20px #0d0802;
+}
+.col p{
+  position: relative;
+  transform: translateY(-50%);
+  top: 50%;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+

@@ -1,0 +1,20 @@
+<div class="body">
+  <img class="logo" src="assets/images/RF.png" alt="le logo RF">
+  <button class="goback" nz-button nzType="primary" [nzSize]="'large'" nzShape="circle" (click)="goBack()"><i nz-icon
+      nzType="left"></i></button>
+  <div nz-row class="row">
+    <div class="col c1" nz-col [nzSpan]="24">
+      <h1>Comment souhaitez-vous déposer ?</h1>
+    </div>
+    <div class="col c2" nz-col [nzSpan]="12">
+      <div (click)="goNext()"><img src="assets/images/tshirt.png" alt="">
+        <p>individuellement</p>
+      </div>
+    </div>
+    <div class="col c3" nz-col [nzSpan]="12">
+      <div><img src="assets/images/fashion.png" alt="">
+        <p>en lot</p>
+      </div>
+    </div>
+  </div>
+</div>

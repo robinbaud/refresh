@@ -1,0 +1,43 @@
+.logo{
+  width: 100px;
+  height: auto;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.col{
+  padding: 25px;
+}
+.c2{
+  padding-left: 35px;
+}
+.row{
+  margin: 50px 50px 0 50px;
+}
+
+.detective{
+  width: 150px;
+  position: relative;
+  padding: 20px;
+}
+textarea{
+  border-radius: 30px;
+}
+.submit{
+  border: none;
+  background-color: #221a11;
+  border-radius: 15px;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: -2px 2px 5px gray;
+}
+
+.retour{
+  color: #221a11;
+  background-color: #DEE0E4;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px black;
+}

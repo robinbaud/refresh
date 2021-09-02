@@ -1,0 +1,17 @@
+<img class="logo" src="assets/images/RF.png" alt="le logo RF">
+<button class="goback" nz-button nzType="primary" nzSize='large' nzShape="circle" (click)="goBack()">
+  <i nz-icon nzType="left"></i>
+</button>
+<div class="body">
+  <div class="row" nz-row nzJustify="right">
+    <div class="img">
+
+    </div>
+    <div class="col c1" nz-col [nzSpan]="24">
+      <button nz-button nzType="primary" [nzSize]="'large'"[nzShape]="'round'" (click)="goPanier()">Ajouter au panier</button>
+    </div>
+    <div class="col c2" nz-col [nzSpan]="24">
+      <button nz-button nzType="primary" [nzSize]="'large'"[nzShape]="'round'" (click)="goBack()">Sortir</button>
+    </div>
+  </div>
+</div>

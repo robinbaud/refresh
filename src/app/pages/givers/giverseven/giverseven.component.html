@@ -1,0 +1,24 @@
+<img class="logo" src="assets/images/RF.png" alt="le logo RF">
+<button class="goback" nz-button nzType="primary" nzSize='large' nzShape="circle" (click)="goBack()"><i nz-icon nzType="left"></i></button>
+<div class="body">
+  <div class="row" nz-row>
+    <div class="col c1" nz-col [nzSpan]="24">
+      <p>Nous vous laissons libre de votre anonymat</p>
+    </div>
+    <div class="col c2" nz-col [nzSpan]="24">
+      <textarea cols="60" rows="1" placeholder="Mon pseudonyme"></textarea>
+    </div>
+    <div class="col c3" nz-col [nzSpan]="24">
+      <p>Comment souhaitez-vous recevoir les notifications ?</p>
+    </div>
+    <div class="col c4" nz-col [nzSpan]="24">
+      <button nz-button nzType="primary" [nzSize]="'large'" nzShape="round">par télephone</button>
+    </div>
+    <div class="col c5" nz-col [nzSpan]="24">
+      <button nz-button nzType="primary" [nzSize]="'large'" nzShape="round">par mail</button>
+    </div>
+    <div class="col c6" nz-col [nzSpan]="24">
+      <button nz-button nzType="primary" [nzSize]="'large'" nzShape="round" (click)="goValid()">suivant<i nz-icon nzType="right"></i></button>
+    </div>
+  </div>
+</div>

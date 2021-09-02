@@ -1,0 +1,83 @@
+.body{
+  background: url(/assets/images/9.svg);
+  background-repeat: no-repeat;
+  background-position-y: 100%;
+  background-size: cover;
+  padding: 70px 100px 0px 100px;
+  height: 100vh;
+}
+.logo{
+  width: 100px;
+  height: auto;
+  position: absolute;
+  top: 30px;
+  right: 10px;
+}
+i{
+  color: black;
+}
+.goback{
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  background-color: #DEE0E4;
+  border: none;
+  box-shadow: 5px 5px 9px #221a11;
+}
+.row{
+
+  text-align: center;
+  font-size: large;
+}
+.col{
+  border: none;
+  height: auto;
+  font-weight: 400;
+}
+
+.c3 textarea{
+  position: relative;
+  transform: translateY(-50%);
+  top: 50%;
+  border-radius: 30px;
+  padding-left: 10px;
+}
+
+.c4{
+  margin-top: 20px;
+}
+
+img{
+  width: 60%;
+  margin: auto;
+  position: relative;
+  transform: translateY(-50%);
+  top: 50%;
+}
+.c5{
+  margin-top: 10px;
+  height: 20vh;
+  border: dashed rgba(0, 0, 0, 0.493) 2px;
+  border-radius: 15px;
+}
+.c5 img{
+  opacity: .5;
+}
+
+button img.arrow{
+  display: block;
+  width: 20%;
+  position: relative;
+  transform: translateY(-50%);
+  top: 50%;
+}
+
+.next{
+  position: absolute;
+  bottom: 15px;
+  right: 10px;
+  background-color: #DEE0E4;
+  border: none;
+  box-shadow: 5px 5px 9px #221a11;
+  color: #221a11;
+}

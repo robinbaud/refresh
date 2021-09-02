@@ -1,0 +1,23 @@
+<img class="logo" src="assets/images/RF.png" alt="le logo RF">
+<button class="goback" nz-button nzType="primary" nzSize='large' nzShape="circle" (click)="goBack()">
+  <i nz-icon nzType="left"></i>
+</button>
+<div class="body">
+
+  <div class="row" nz-row nzJustify="center">
+    <div class="col" nz-col [nzSpan]="3"></div>
+    <div class="col" nz-col [nzSpan]="3"></div>
+    <div class="col" nz-col [nzSpan]="3"></div>
+    <div class="col" nz-col [nzSpan]="3"></div>
+    <div class="col" nz-col [nzSpan]="3"></div>
+    <div class="col" nz-col [nzSpan]="3"></div>
+  </div>
+  <div class="row" nz-row nzJustify="center">
+    <div  class="button" nz-col [nzSpan]="9">
+      <button (click)="goRetrait()"nz-button nzSize='large' nzType="primary" [nzShape]="'round'">Continuer</button>
+    </div>
+    <div  class="button" nz-col [nzSpan]="9">
+      <button (click)="goEnd()"nz-button nzSize='large' nzType="primary" [nzShape]="'round'">Terminer</button>
+    </div>
+  </div>
+</div>

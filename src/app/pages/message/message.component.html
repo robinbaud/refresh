@@ -1,0 +1,21 @@
+<img class="logo" src="assets/images/RF.png" alt="le logo RF">
+
+<div nz-row class="row">
+  <div class="col c1" nz-col [nzSpan]="24">
+    <h1>laissez nous un commentaire</h1>
+  </div>
+  <div class="col c2" nz-col [nzSpan]="8">
+    <h2>Nos équipes le traiteront avec la plus grande attention</h2>
+    <img class="detective" src="assets/images/detective.png" alt="">
+  </div>
+  <div class="col c3" nz-col [nzSpan]="16">
+    <form nz-form nz-row [formGroup]="form">
+      <textarea nz-col [nzSpan]="24" rows="5" formControlName="message"></textarea>
+      <div nz-col [nzSpan]="18"></div>
+      <button class="submit" nz-button nzType="primary" type="submit" (click)="submit()">envoyer</button>
+    </form>
+  </div>
+  <div class="col c4" nz-col [nzSpan]="24">
+    <button class="retour" nz-button nzType="primary" (click)="goBack()"><i nz-icon nzType="left"></i>Sortir</button>
+  </div>
+</div>

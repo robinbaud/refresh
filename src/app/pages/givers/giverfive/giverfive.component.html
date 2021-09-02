@@ -1,0 +1,23 @@
+<img class="logo" src="assets/images/RF.png" alt="le logo RF">
+<button class="goback" nz-button nzType="primary" [nzSize]="'large'" nzShape="circle" (click)="goBack()">
+  <i nz-icon nzType="left"></i>
+</button>
+<div class="body">
+  <div class="row" nz-row>
+    <div class="col c1 " nz-col [nzSpan]="9">
+      <p>renseignez votre numéro de télephone</p>
+    </div>
+    <div class="col c2 " nz-col [nzSpan]="2" [nzOffset]="2"><img class="arrow" src="assets/images/right-arrow.png"
+        alt=""></div>
+    <div class="col c3 " nz-col [nzSpan]="9" [nzOffset]="2">
+      <textarea name="" id="" cols="20" rows="1" placeholder="06.."></textarea>
+    </div>
+    <div class="col c4 " nz-col [nzSpan]="22" [nzOffset]="1">
+      <p>vous receverez ensuite un message, renvoyez nous une photo de votre lot. (si ce n'est pas votre premier dépôt
+        vous pouvez renvoyer une photo au même numéro) </p>
+    </div>
+    <div class="col c5 " nz-col [nzSpan]="6" [nzOffset]="9"><img src="assets/images/dslr-camera.png" alt=""></div>
+  </div>
+  <button class="next" nz-button nzType="primary" (click)="goSix()">suivant<i nz-icon nzType="right"></i></button>
+</div>
+

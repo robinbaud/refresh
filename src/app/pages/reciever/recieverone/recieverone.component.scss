@@ -1,0 +1,67 @@
+.body{
+  background: url(/assets/images/4.svg);
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-position-y: 40%;
+  background-position-x: 105%;
+  height: 100vh;
+  padding: 50px 120px 0px 120px;
+}
+.logo{
+  width: 100px;
+  height: auto;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
+}
+i{
+  color: black;
+}
+.goback{
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  background-color: #DEE0E4;
+  border: none;
+  box-shadow: 5px 5px 9px #221a11;
+}
+.row{
+  text-align: center;
+  font-size: large;
+}
+.grille{
+  margin-left: 75px;
+}
+img{
+  width: 45%;
+  height: auto;
+  position: relative;
+
+  align-self: center;
+}
+.col div{
+  margin: 7px;
+  padding-top: 16px;
+  height: 23vh;
+  border: solid gray 1px;
+  border-radius: 50px;
+  box-shadow: 5px 5px 15px gray;
+}
+p{
+  margin-top: 5px;
+  font-weight: 700;
+  font-size: small;
+}
+
+.c2 div,
+.c3 div,
+.c4 div,
+.c5 div,
+.c6 div,
+.c7 div,
+.c8 div,
+.c9 div,
+.c10 div{
+  background-color: #f1f1f1;
+}

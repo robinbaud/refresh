@@ -1,0 +1,37 @@
+.body{
+  background: url(/assets/images/15.svg);
+  background-repeat: no-repeat;
+  background-position-y: 100%;
+  background-attachment: fixed;
+  background-size: 110%;
+  padding: 100px 100px 0px 100px;
+}
+.logo{
+  width: 100px;
+  height: auto;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
+}
+i{
+  color: black;
+}
+.goback{
+  position: fixed;
+  top: 15px;
+  left: 10px;
+  background-color: #DEE0E4;
+  border: none;
+  box-shadow: 5px 5px 9px #221a11;
+}
+
+
+.col{
+  height: 50vh;
+  margin: 20px;
+  background-color: white;
+  border: solid rgba(223, 223, 223, 0.76) 3px;
+  box-shadow: 5px 5px 15px gray;
+  border-radius: 30px;
+}

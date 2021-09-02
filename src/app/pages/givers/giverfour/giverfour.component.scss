@@ -1,0 +1,49 @@
+.body{
+  background: url(/assets/images/8.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 70px 100px 100px 100px;
+  height: 100vh;
+}
+.logo{
+  width: 100px;
+  height: auto;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
+}
+i{
+  color: black;
+}
+.goback{
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  background-color: #DEE0E4;
+  border: none;
+  box-shadow: 5px 5px 9px #221a11;
+}
+
+.row{
+  text-align: center;
+  font-size: large;
+}
+
+
+.col{
+  margin: 7px;
+  margin-top: 50px;
+  padding-top: 16px;
+  margin-left: 15px;
+  height: 15vh;
+  border: solid gray 1px;
+  border-radius: 80px;
+  box-shadow: 5px 5px 15px gray;
+  background-color: #f1f1f1;
+}
+
+p{
+  padding-top: 10px;
+  font-size: large;
+}
